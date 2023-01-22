@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.icu">
+
+    <title>Document</title>
+   
+</head>
+<body>
+      {{>navbar}}
+      {{!-- hero section start --}}
+      <div class="contaner-fluid mt-5">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+               <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                    <h1>WELCOME TO THE LAND OF</h1>
+                    <h1>BHAGAVAD GITA</h1>
+                    <p>LETS KNOW ABOUT <span class="bold-style"> REALM OF DUTY , KURUKHETRA🏵️</span></p>
+                    <p font-family="cursive" color="#2980b9">Kurukshetra is a historical city in the northern Indian state of Haryana. It is believed to be the site of the ancient city of Kurukshetra, which was the setting for the Mahabharata, one of the two major Sanskrit epics of ancient India. The Mahabharata tells the story of the Kuru dynasty and the great battle that took place between the Kauravas and the Pandavas, two branches of the same family. According to Hindu tradition, the battle of Kurukshetra was fought on a massive scale, involving thousands of soldiers and lasting for 18 days. The city is also considered a sacred pilgrimage site for Hindus, and is home to several temples and other religious sites.</p>
+                    <button class="btn-style btn-primary" onclick="window.open('https://en.wikipedia.org/wiki/Kurukshetra')">Read More</button>
+               </div>
+               {{!-- right side --}}
+                <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                <figure>
+                  <img src="images/krishna.jpg" alt="herosection-image" height="500">
+                </figure>
+               </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {{!-- hero section ends --}}
+
+       {{!-- about us section start --}}
+      {{>about}}
+      {{!-- about us section ends --}}
+
+      {{!-- services section start --}}
+      {{>service}}
+      {{!-- services section ends --}}
+
+      {{!-- maps section start --}}
+      {{>maps}}
+      {{!-- maps section ends --}}
+
+      {{!-- reviews section start --}}
+      {{>reviews}}
+      {{!-- reviews section ends --}}
+
+
+      {{!-- contact section start --}}
+      {{>contact}}
+      {{!-- contact section ends --}}
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+     <script src="../js/bootstap.js" type="text/javascript"></script>
+</body>
+</html>

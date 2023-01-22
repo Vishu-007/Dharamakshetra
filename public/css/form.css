@@ -1,0 +1,45 @@
+body
+{
+    background-color: antiquewhite;
+}
+/* p{
+    color: red;
+} */
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    align-self: center;
+    margin: 80px;
+    margin-left: 400px;
+    border-radius: 50px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  label {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  input[type="text"], input[type="number"], input[type="email"], input[type="tel"], textarea {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

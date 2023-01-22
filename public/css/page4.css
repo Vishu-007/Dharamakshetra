@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background: rgb(0, 0, 0);
+    margin: 8px;
+    font-family: 'Merienda', cursive;
+    background-image: url('dhrohar.jpeg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.box {
+    max-width: 600px;
+    margin: 8px;
+    padding: 60px;
+    background: rgb(255, 255, 255);
+    opacity: 0.68;
+    border-radius: 28px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.city{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.detail{
+    text-transform: capitalize;
+}
+
