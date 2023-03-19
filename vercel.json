@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "name": "dharmakshetra_kurukshetra",
+    "builds": [
+       { "src": "src/app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/src/app.js" }
+    ]
+ }
